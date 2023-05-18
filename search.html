@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Marinduque Local Business Locator</title>
+</head>
+
+<body>
+    <section class="header">'
+        <nav>
+            <a href="index.php"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="admin.html">ADMIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>                               
+        </nav>
+
+        <div class="s-container">
+            <div class="center-container">
+                <form action="" class="search-bar">
+                    <input type="text" placeholder="Search anything: products, location, name." name="q">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="b-container">
+            <!-- php code
+            <?php
+                $xml = simplexml_load_file('file/data.xml');
+                foreach ($xml->business as $business) {
+                    echo '<section class="business">';
+                    echo '<h3>' . $business->name . '</h3>';	
+                    		
+                    echo '<p><strong>Type:</strong>&nbsp' . $business->type . '</p>';
+                    echo '<p><strong>Address:</strong>&nbsp;' . $business->address->municipality . ',&nbsp;' . $business->address->barangay .'</p>';
+                    echo '<p><strong>Phone:</strong>&nbsp;' . $business->contact->number .'</p>';
+                    echo '<p><strong>Email:</strong>&nbsp;' . $business->contact->email .'</p>';
+                    echo '</section>';
+                }           
+            ?> 
+            -->
+            
+            <section class="business">
+                <h3>Dimesa Hardware</h3>
+                <p><strong>Type: </strong>Merchandise</p>
+                <p><strong>Address: </strong>Gasan, Bachao</p>
+                <p><strong>Phone: </strong>+63-999-9999-999</p>
+                <p><strong>Email: </strong>demesahardware@yahoo.com</p>
+            </section>
+            <section class="business">
+                <h3>Ren'z Hardware</h3>
+                <p><strong>Type: </strong>Merchandise</p>
+                <p><strong>Address: </strong>Gasan, Dili</p>
+                <p><strong>Phone: </strong>+63-888-8888-888</p>
+                <p><strong>Email: </strong>renzhardware@gmail.com</p>
+            </section><section class="business">
+                <h3>Sinaunang Mekaniko</h3>
+                <p><strong>Type: </strong>Service</p>
+                <p><strong>Address: </strong>Gasan, Bognuyan</p>
+                <p><strong>Phone: </strong>+63-777-7777-777</p>
+                <p><strong>Email: </strong>sinaunangmekaniko@microsoft.com</p>
+            </section>
+            <section class="business">
+                <h3>Dimesa Hardware</h3>
+                <p><strong>Type: </strong>Merchandise</p>
+                <p><strong>Address: </strong>Gasan, Bachao</p>
+                <p><strong>Phone: </strong>+63-999-9999-999</p>
+                <p><strong>Email: </strong>demesahardware@yahoo.com</p>
+            </section>
+            <section class="business">
+                <h3>Ren'z Hardware</h3>
+                <p><strong>Type: </strong>Merchandise</p>
+                <p><strong>Address: </strong>Gasan, Dili</p>
+                <p><strong>Phone: </strong>+63-888-8888-888</p>
+                <p><strong>Email: </strong>renzhardware@gmail.com</p>
+            </section><section class="business">
+                <h3>Sinaunang Mekaniko</h3>
+                <p><strong>Type: </strong>Service</p>
+                <p><strong>Address: </strong>Gasan, Bognuyan</p>
+                <p><strong>Phone: </strong>+63-777-7777-777</p>
+                <p><strong>Email: </strong>sinaunangmekaniko@microsoft.com</p>
+            </section>
+            <section class="business">
+                <h3>Dimesa Hardware</h3>
+                <p><strong>Type: </strong>Merchandise</p>
+                <p><strong>Address: </strong>Gasan, Bachao</p>
+                <p><strong>Phone: </strong>+63-999-9999-999</p>
+                <p><strong>Email: </strong>demesahardware@yahoo.com</p>
+            </section>
+            <section class="business">
+                <h3>Ren'z Hardware</h3>
+                <p><strong>Type: </strong>Merchandise</p>
+                <p><strong>Address: </strong>Gasan, Dili</p>
+                <p><strong>Phone: </strong>+63-888-8888-888</p>
+                <p><strong>Email: </strong>renzhardware@gmail.com</p>
+            </section><section class="business">
+                <h3>Sinaunang Mekaniko</h3>
+                <p><strong>Type: </strong>Service</p>
+                <p><strong>Address: </strong>Gasan, Bognuyan</p>
+                <p><strong>Phone: </strong>+63-777-7777-777</p>
+                <p><strong>Email: </strong>sinaunangmekaniko@microsoft.com</p>
+            </section>
+        
+    </section>
+ 
+</body>
+</html>
